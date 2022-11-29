@@ -1,0 +1,74 @@
+[
+    {
+        "product_name": "Dell -1",
+        "categories_id": 1,
+        "categories_name": "Dell",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg",
+        "location": "Dhaka",
+        "resale_price": 1200,
+        "orginal_price": 1200,
+        "yearOFuse": 1,
+        "seller_name": "Farvez Hossen",
+        "verify_seller": "yes"
+    },
+    {
+        "product_name": "Dell -2",
+        "categories_id": 1,
+        "categories_name": "Dell",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg",
+        "location": "Dhaka",
+        "resale_price": 1200,
+        "orginal_price": 1200,
+        "yearOFuse": 1,
+        "seller_name": "Farvez Hossen",
+        "verify_seller": "yes"
+    },
+    {
+        "product_name": "Hp -1",
+        "categories_id": 2,
+        "categories_name": "Hp",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg",
+        "location": "Dhaka",
+        "resale_price": 1200,
+        "orginal_price": 1200,
+        "yearOFuse": 1,
+        "seller_name": "Farvez Hossen",
+        "verify_seller": "yes"
+    },
+    {
+        "product_name": "Hp -2",
+        "categories_id": 2,
+        "categories_name": "Hp",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg",
+        "location": "Dhaka",
+        "resale_price": 1200,
+        "orginal_price": 1200,
+        "yearOFuse": 1,
+        "seller_name": "Farvez Hossen",
+        "verify_seller": "yes"
+    },
+    {
+        "product_name": "Asus -1",
+        "categories_id": 3,
+        "categories_name": "Asus",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg",
+        "location": "Dhaka",
+        "resale_price": 1200,
+        "orginal_price": 1200,
+        "yearOFuse": 1,
+        "seller_name": "Farvez Hossen",
+        "verify_seller": "yes"
+    },
+    {
+        "product_name": "Asus -2",
+        "categories_id": 3,
+        "categories_name": "Asus",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg",
+        "location": "Dhaka",
+        "resale_price": 1200,
+        "orginal_price": 1200,
+        "yearOFuse": 1,
+        "seller_name": "Farvez Hossen",
+        "verify_seller": "yes"
+    }
+]
