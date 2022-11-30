@@ -81,14 +81,7 @@ const router = createBrowserRouter([
                 path: '/dashboard/allBuyer',
                 element: <AdminRoute><AllBuyers></AllBuyers></AdminRoute>
             },
-            // {
-            //     path: '/dashboard/adddoctor',
-            //     element: <AdminRoutes><AddDoctor></AddDoctor></AdminRoutes>
-            // },
-            // {
-            //     path: '/dashboard/managedoctors',
-            //     element: <AdminRoutes><ManageDoctors></ManageDoctors></AdminRoutes>
-            // },
+            
             {
                 path: '/dashboard/payment/:id',
                 element: <Payment></Payment>,
