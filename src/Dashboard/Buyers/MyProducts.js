@@ -7,7 +7,7 @@ const MyProducts = () => {
 
     const { user } = useContext(AuthContext);
 
-    const url = `http://localhost:5000/bookings?email=${user?.email}`;
+    const url = `https://client-site-pi.vercel.app/bookings?email=${user?.email}`;
     console.log(user?.email)
 
     const { data: bookings = [] } = useQuery({

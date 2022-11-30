@@ -14,7 +14,7 @@ const CategoryDetails = () => {
     const [modelProduct, setModelProduct] = useState(null)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/categories/${title}`)
+        fetch(`https://client-site-pi.vercel.app/categories/${title}`)
             .then(res => res.json())
             .then(data => { setProducts(data); console.log(data) })
     }, [title])

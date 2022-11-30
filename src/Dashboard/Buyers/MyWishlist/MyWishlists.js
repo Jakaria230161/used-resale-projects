@@ -11,7 +11,7 @@ const MyWishlists = () => {
     const [products, setProducts] = useState([])
     const [modelProduct, setModelProduct] = useState(null)
 
-    const url = `http://localhost:5000/wishlists?email=${user?.email}`;
+    const url = `https://client-site-pi.vercel.app/wishlists?email=${user?.email}`;
     console.log(user?.email)
 
     const { data: wishlists = [] } = useQuery({
@@ -60,7 +60,7 @@ const MyWishlists = () => {
                                             className="btn btn-primary"
                                         >Book Now</label>
 
-                                        
+
                                     </td>
                                 </tr>)
                             }

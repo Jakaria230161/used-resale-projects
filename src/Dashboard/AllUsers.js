@@ -14,7 +14,7 @@ const AllUsers = () => {
     const { data: users = [], refetch } = useQuery({
         queryKey: ['users'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/allUser/${seller}`);
+            const res = await fetch(`https://client-site-pi.vercel.app/allUser/${seller}`);
             console.log(user?.email)
             const data = await res.json();
             return data;
@@ -24,7 +24,7 @@ const AllUsers = () => {
     // console.log(users)
 
     const handleMakeAdmin = id => {
-        fetch(`http://localhost:5000/users/admin/${id}`, {
+        fetch(`https://client-site-pi.vercel.app/users/admin/${id}`, {
             method: 'PUT',
             headers: {
                 authorization: `bearer ${localStorage.getItem('accessToken')}`

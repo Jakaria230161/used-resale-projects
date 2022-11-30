@@ -59,7 +59,7 @@ const Signup = () => {
 
     const saveUserDasboard = (name, email, role) => {
         const user = { name, email, role };
-        fetch('http://localhost:5000/users', {
+        fetch('https://client-site-pi.vercel.app/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -73,7 +73,7 @@ const Signup = () => {
     }
 
 
-    
+
     const handleGoogleLogin = () => {
 
         // setLoader(true)

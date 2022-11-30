@@ -17,7 +17,7 @@ const SellerProducts = () => {
         queryKey: ['products'],
         queryFn: async () => {
             try {
-                const res = await fetch(`http://localhost:5000/products/${user.email}`, {
+                const res = await fetch(`https://client-site-pi.vercel.app/products/${user.email}`, {
                     headers: {
                         authorization: `bearer ${localStorage.getItem('accessToken')}`
                     }
@@ -34,7 +34,7 @@ const SellerProducts = () => {
     const addAdvertise = id => {
 
 
-        fetch(`http://localhost:5000/addProduct/addAdvertisement/${id}`, {
+        fetch(`https://client-site-pi.vercel.app/addProduct/addAdvertisement/${id}`, {
             method: 'PUT',
             headers: {
 
@@ -57,7 +57,7 @@ const SellerProducts = () => {
     }
 
     const removeAdvertise = (id) => {
-        fetch(`http://localhost:5000/addProduct/removeAdvertisement/${id}`, {
+        fetch(`https://client-site-pi.vercel.app/addProduct/removeAdvertisement/${id}`, {
             method: 'PUT',
             headers: {
 
@@ -81,7 +81,7 @@ const SellerProducts = () => {
 
 
     const handleDelete = product => {
-        fetch(`http://localhost:5000/products/${product._id}`, {
+        fetch(`https://client-site-pi.vercel.app/products/${product._id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `bearer ${localStorage.getItem('accessToken')}`
