@@ -10,7 +10,7 @@ const firebaseConfig = {
     projectId: "mobile-seller-buyer",
     storageBucket: "mobile-seller-buyer.appspot.com",
     messagingSenderId: "158769478061",
-    appId: "1:158769478061:web:9ea16ee1e504266e708924"
+    appId: "1:158769478061:web:9ea16ee1e504266e708924",
 };
 
 // Initialize Firebase

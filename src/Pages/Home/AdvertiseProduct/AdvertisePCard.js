@@ -56,8 +56,8 @@ const AdvertisePCard = ({ product }) => {
                     <p className='font-bold'><MdLocationOn className='inline-block text-pink-600'></MdLocationOn> {location}</p>
                     <hr></hr>
                     <div className='flex justify-between'>
-                        <p className='font-bold text-blue-700'>Resale Price : ${resalePrice}</p>
-                        <p className=' text-red-600'>Orginal Price : ${originalPrice}</p>
+                        <p className='font-bold text-indigo-700'>Resale Price : ${resalePrice}</p>
+                        <p className=' text-red-700'>Orginal Price : ${originalPrice}</p>
                     </div>
                     <div className='flex justify-between'>
                         <p>Used : {used}</p>

@@ -14,7 +14,7 @@ const CategoriesCard = ({ categorie }) => {
         <div onClick={handleCategory} className="card bg-base-100 shadow-xl">
             <Link to={`/categorie/${_id}`}>
                 <figure className="px-6 pt-10">
-                    <img src={icon} alt="Shoes" className="rounded-xl" />
+                    <img src={icon} alt="Shoes" className="rounded-xl h-56 w-56" />
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{title}</h2>
