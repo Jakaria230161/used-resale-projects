@@ -60,18 +60,7 @@ const MyWishlists = () => {
                                             className="btn btn-primary"
                                         >Book Now</label>
 
-                                        {/* {
-                                            wishlist.resalePrice && !wishlist.paid &&
-                                            <Link to={`/dashboard/wishlistPayment/${wishlist._id}`}>
-                                                <button className='btn btn-primary btn-sm'
-                                                >Purchase</button>
-                                            </Link>
-                                        }
-                                        {
-                                            wishlist.resalePrice && wishlist.paid &&
-                                            <span className='text-primary'
-                                            >Paid</span>
-                                        } */}
+                                        
                                     </td>
                                 </tr>)
                             }

@@ -73,18 +73,7 @@ const Signup = () => {
     }
 
 
-    // const handleGoogleLogin = () => {
-    //     const role = 'Buyer';
-    //     googleLogin(googleProvider)
-    //         .then((result) => {
-    //             const user = result.user;
-    //             saveUserDasboard(user.displayName, user.email, role)
-    //             console.log(user)
-    //             navigate(from, { replace: true });
-    //         }).catch((error) => {
-    //             console.log(error.message)
-    //         });
-    // }
+    
     const handleGoogleLogin = () => {
 
         // setLoader(true)
@@ -161,7 +150,7 @@ const Signup = () => {
                     {
                         signUpError && <p className='text-red-500'>{signUpError}</p>
                     }
-                    <p>Already have an Account <Link className='text-secondary' to="/login">Please Login</Link></p>
+                    <p>Already have an Account? <Link className='text-secondary' to="/login">Please Login</Link></p>
                     <div className="divider">OR</div>
                     <button onClick={handleGoogleLogin} className='btn btn-outline w-full'>CONTINUE WITH GOOGLE</button>
                 </form>
