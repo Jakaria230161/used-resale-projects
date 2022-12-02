@@ -39,7 +39,6 @@ const BookingModal = ({ modelProduct, setModelProduct }) => {
       .then((data) => {
         console.log(data);
         if (data.acknowledged) {
-          //close the mode
           setModelProduct(null);
           toast.success("Booking Confrimed");
           // refetch();
