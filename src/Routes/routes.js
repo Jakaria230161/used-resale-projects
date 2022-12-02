@@ -60,7 +60,7 @@ const router = createBrowserRouter([
         <DashBoardLayout></DashBoardLayout>
       </PrivateRoutes>
     ),
-    // errorElement: <DisplayError></DisplayError>,
+
     children: [
       {
         path: "/dashboard/myProducts",
